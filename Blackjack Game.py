@@ -79,5 +79,11 @@ def play_game():
 	print(f"The cards you finally have: {user_cards} and this amounts to {user_value}")
 	print(f"The cards the dealer finally has: {dealer_cards} and this amounts to {dealer_value}")
 	print(compare_values(user_value,dealer_value))
+	if x=="yes":
+		play_game()
+	if x=="no":
+		print("Ok have a good day")
+	else:
+		print("I am assuming that is a no")
 
 play_game()
