@@ -81,7 +81,7 @@ def play_game():
 	print(compare_values(user_value,dealer_value))
 	if x=="yes":
 		play_game()
-	if x=="no":
+	elif x=="no":
 		print("Ok have a good day")
 	else:
 		print("I am assuming that is a no")
